@@ -1,0 +1,9 @@
+%YAML:1.0
+---
+number: 5
+string: my_name
+cv_Mat: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: u
+   data: [ 0, 0, 0 ]
