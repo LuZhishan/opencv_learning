@@ -3,6 +3,8 @@
 using namespace cv;
 using namespace std;
 
+// 仿射变换就是二维的旋转平移，再加上缩放
+
 int main()
 {
     Mat img_1 = imread("../1.png");

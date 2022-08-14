@@ -23,5 +23,25 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # target_link_libraries(14_channel ${OpenCV_LIBS})
 # add_executable(15_dft src/15_dft.cpp)
 # target_link_libraries(15_dft ${OpenCV_LIBS})
-add_executable(16_yaml src/16_yaml.cpp)
-target_link_libraries(16_yaml ${OpenCV_LIBS})
+# add_executable(16_yaml src/16_yaml.cpp)
+# target_link_libraries(16_yaml ${OpenCV_LIBS})
+
+# add_executable(31_edge src/31_edge.cpp)
+# target_link_libraries(31_edge ${OpenCV_LIBS})
+# add_executable(32_hough src/32_hough.cpp)
+# target_link_libraries(32_hough ${OpenCV_LIBS})
+# add_executable(33_remap src/33_remap.cpp)
+# target_link_libraries(33_remap ${OpenCV_LIBS})
+# add_executable(41_contours src/41_contours.cpp)
+# target_link_libraries(41_contours ${OpenCV_LIBS})
+add_executable(42_convexhull src/42_convexhull.cpp)
+target_link_libraries(42_convexhull ${OpenCV_LIBS})
+
+
+
+
+
+
+
+# add_executable(cal src/cal.cpp)
+# target_link_libraries(cal ${OpenCV_LIBS})
